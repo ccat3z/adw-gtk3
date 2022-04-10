@@ -151,7 +151,7 @@ $fill_text_color: $selected_fg_color;
 
 // Notebook and tabs
 $notebook_color: $base_color;
-$tab_color: if($variant == 'light', gtkmix(currentColor, $bg_color, 12%), gtkmix(currentColor, $bg_color, 1%));
+$tab_color: if($variant == 'light', gtkmix(currentColor, $bg_color, 37%), gtkmix(currentColor, $bg_color, 1%));
 $tab_color_hover: if($variant == 'light', gtkmix(currentColor, $bg_color, 14.7%), gtkmix(currentColor, $bg_color, 3.7%));
 $tab_color_active: if($variant == 'light', gtkmix(currentColor, $bg_color, 7.7%), gtkmix(currentColor, $bg_color, 5.7%));
 $tab_color_active_hover: if($variant == 'light', gtkshade($tab_color_active, 0.971), gtkshade($tab_color_active, 1.11));

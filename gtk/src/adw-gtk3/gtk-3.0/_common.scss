@@ -2438,7 +2438,7 @@ notebook {
 
       outline-offset: -5px;
 
-      color: $fg_color;
+      color: gtkmix($fg_color, $bg_color, if($variant == 'light', 50%, 35%));
       font-weight: normal;
 
       border-width: 0px;         // for reorderable tabs
@@ -2451,7 +2451,7 @@ notebook {
       }
 
       &:hover {
-        color: $fg_color;
+        color: gtkmix($fg_color, $bg_color, if($variant == 'light', 50%, 35%));
 
         &.reorderable-page {
           border-color: $border_color;
